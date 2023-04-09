@@ -1,0 +1,16 @@
+[package]
+name = "paylogger_discord"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+anyhow = "1.0.69"
+serenity = { version = "0.11.5", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+shuttle-secrets = "0.11.0"
+tracing = "0.1.37"
+reqwest = "*"
+serde = { version = "1.0", features = ["derive"] }
+chrono = "*"
+dotenv = "0.15.0"
+tokio = "*"

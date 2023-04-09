@@ -1,0 +1,10 @@
+runtime: go115
+
+handlers:
+
+# All URLs are handled by the Go application script
+- url: /.*
+  script: auto
+
+entrypoint:
+  go run cmd/paylogger-go/main.go

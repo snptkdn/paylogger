@@ -1,0 +1,11 @@
+webhook_daily/bin
+webhook_daily/test/.DS_Store
+webhook_daily/test/Makefile
+webhook_daily/.DS_Store
+webhook_daily/.DS_Store
+webhook_daily/function.zip
+webhook_daily/handler
+webhook_daily/main.zip
+.DS_Store
+.DS_Store
+webhook_daily/test
